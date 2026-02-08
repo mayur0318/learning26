@@ -1,0 +1,22 @@
+.header-container{
+    background-color: #030303;
+    height: 130px;
+    width: 100%;
+    color: #ffe600;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+ 
+}
+
+.header{
+    font-size: 60px;
+    font-family:'Bebas Neue', sans-serif ;
+    font-style: italic; /* to match the slanted look */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
