@@ -19,8 +19,7 @@ import { NetflixShows } from './components/NetflixShows';
 import { Watch } from './components/Watch';
 import { ErrorNotFound } from './components/ErrorNotFound';
 import { Homecomponent } from './components/Homecomponent';
-
-
+import { MapDemo4 } from './components/MapDemo4';
 
 
 function App() {
@@ -37,7 +36,6 @@ return (
           <Route path='/watch/:name' element={<Watch />}></Route>
           <Route path='/*' element={<ErrorNotFound />}></Route>
           <Route path='/' element={<Homecomponent />}></Route>
-
         </Routes>
       </div> 
     
