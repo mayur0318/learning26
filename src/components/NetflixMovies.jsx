@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 export const NetflixMovies = () => {
 
   const movies = [
-    { movieId: 1, movieName: "Dhurandhar" },
-    { movieId: 2, movieName: "Black Friday" },
-    { movieId: 3, movieName: "Maharaja" },
+    { movieId: 1, movieName: "Dhurandhar"},
+    { movieId: 2, movieName: "Black Friday"},
+    { movieId: 3, movieName: "Maharaja"},
   ];
   
   return (

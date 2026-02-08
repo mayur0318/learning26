@@ -7,7 +7,7 @@ export const NetflixShows = () => {
         <h1>NetflixShows</h1>
         <ul>
           <li>
-            <Link to="/watch/gameofthrons">Game Of Throns</Link>
+            <Link to="/watch/gott">Game Of Throns</Link>
           </li>
           <li>
             <Link to="/watch/strangerthings">Stranger Things</Link>
