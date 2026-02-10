@@ -40,6 +40,12 @@ export const Navbar = () => {
                 Movies
               </Link>
             </li>
+
+            <li className="nav-item">
+              <Link className="nav-link" to="/usestatedemo1">
+                  UseState1
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
