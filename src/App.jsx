@@ -21,6 +21,8 @@ import { ErrorNotFound } from './components/ErrorNotFound';
 import { Homecomponent } from './components/Homecomponent';
 import { MapDemo4 } from './components/MapDemo4';
 import { UseStateDemo1 } from './components/UseStateDemo1';
+import { Empoloyees } from './components/Empoloyees';
+import { EmployeeList } from './EmployeeList';
 
 function App() {
   
@@ -35,6 +37,8 @@ return (
           <Route path='/netflixshows' element={<NetflixShows />}></Route>
           <Route path='/watch/:name' element={<Watch />}></Route>
           <Route path='/usestatedemo1' element={<UseStateDemo1/>}></Route>
+          <Route path='/employees' element={<Empoloyees />}></Route>
+          {/* <Route path='/employeelist' element={<EmployeeList />}></Route> */}
           <Route path='/*' element={<ErrorNotFound />}></Route>
           <Route path='/' element={<Homecomponent />}></Route>
         </Routes>

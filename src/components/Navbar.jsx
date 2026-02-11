@@ -46,6 +46,14 @@ export const Navbar = () => {
                   UseState1
               </Link>
             </li>
+
+            <li className="nav-item">
+              <Link className="nav-link" to="/employees">
+                  Employees
+              </Link>
+            </li>
+
+           
           </ul>
         </div>
       </nav>
