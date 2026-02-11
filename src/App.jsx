@@ -23,6 +23,8 @@ import { MapDemo4 } from './components/MapDemo4';
 import { UseStateDemo1 } from './components/UseStateDemo1';
 import { Empoloyees } from './components/Empoloyees';
 import { EmployeeList } from './components/EmployeeList';
+import { TableComponent } from './components/TableComponent';
+import { StudentReusableTable } from './components/StudentReusableTable';
 
 function App() {
   
@@ -38,6 +40,8 @@ return (
           <Route path='/watch/:name' element={<Watch />}></Route>
           <Route path='/usestatedemo1' element={<UseStateDemo1/>}></Route>
           <Route path='/employees' element={<Empoloyees />}></Route>
+          <Route path='/tablecomponent' element={<TableComponent />}></Route>
+          <Route path='/studenttable' element={<StudentReusableTable />}></Route>
           <Route path='/*' element={<ErrorNotFound />}></Route>
           <Route path='/' element={<Homecomponent />}></Route>
         </Routes>
