@@ -27,6 +27,7 @@ import { TableComponent } from './components/TableComponent';
 import { StudentReusableTable } from './components/StudentReusableTable';
 import { InputDemo1 } from './components/input/inputDemo1';
 import { FormDemo1 } from './components/form/FormDemo1';
+import { InputDemo2 } from './components/input/InputDemo2';
 
 function App() {
   
@@ -45,6 +46,7 @@ return (
           <Route path='/tablecomponent' element={<TableComponent />}></Route>
           <Route path='/studenttable' element={<StudentReusableTable />}></Route>
           <Route path='/inputdemo1' element={<InputDemo1 />}></Route>
+          <Route path='/inputdemo2' element={<InputDemo2 />}></Route>
           <Route path='/formdemo1' element={<FormDemo1 />}></Route>
           <Route path='/*' element={<ErrorNotFound />}></Route>
           <Route path='/' element={<Homecomponent />}></Route>
