@@ -9,7 +9,7 @@ export const InputDemo1 = () => {
 
     const nameHandler = (e) => {
         setName(e.target.value)
-    }
+    } 
     const ageHandler = (e) => {
         setAge(e.target.value)
     }
