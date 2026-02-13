@@ -18,7 +18,7 @@ export const FormDemo1 = () => {
         <form onSubmit={handleSubmit(submitHandler)}>
             <div>
                 <label>NAME</label>
-                <input type='text' placeholder='Enter name' {...register('name')} width={30}></input>
+                <input type='text' placeholder='Enter name' {...register('name')}></input>
             </div>
             <div>
                 <label>AGE</label>
