@@ -23,21 +23,27 @@ export const Navbar = () => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link className="nav-link" to="/netflixhome">
                 Netflix Home
               </Link>
-            </li>
-
+            </li> */}
+{/* 
             <li className="nav-item">
               <Link className="nav-link" to="/netflixshows">
                 Shows
               </Link>
-            </li>
+            </li> */}
 
             <li className="nav-item">
               <Link className="nav-link" to="/netflixmovies">
                 Movies
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link className="nav-link" to="/team">
+                IPL Teams
               </Link>
             </li>
 
@@ -52,18 +58,18 @@ export const Navbar = () => {
                   Employees
               </Link>
             </li>
-
+{/* 
             <li className="nav-item">
               <Link className="nav-link" to="/studenttable">
                   Student Table
               </Link>
-            </li>
-
+            </li> */}
+{/* 
             <li className="nav-item">
               <Link className="nav-link" to="/inputdemo1">
                   InputDemo1
               </Link>
-            </li>
+            </li> */}
 
             <li className="nav-item">
               <Link className="nav-link" to="/inputdemo2">
@@ -77,11 +83,11 @@ export const Navbar = () => {
               </Link>
             </li>
 
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link className="nav-link" to="/formdemo1">
                   FormDemo1
               </Link>
-            </li>
+            </li> */}
 
             <li className="nav-item">
               <Link className="nav-link" to="/formdemo2">
@@ -89,9 +95,15 @@ export const Navbar = () => {
               </Link>
             </li>
 
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link className="nav-link" to="/formdemo3">
                   FormDemo3
+              </Link>
+            </li> */}
+
+            <li className="nav-item">
+              <Link className="nav-link" to="/formdemo4">
+                  Form Validation
               </Link>
             </li>
           </ul>

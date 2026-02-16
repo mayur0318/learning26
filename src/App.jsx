@@ -1,6 +1,4 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import { HeaderComponent } from './components/HeaderComponent';
 import { FooterComponent } from './components/FooterComponent';
@@ -31,6 +29,9 @@ import { InputDemo2 } from './components/input/InputDemo2';
 import { InputDemo3 } from './components/input/InputDemo3';
 import { FormDemo2 } from './components/form/FormDemo2';
 import { FormDemo3 } from './components/form/FormDemo3';
+import { FormDemo4 } from './components/form/FormDemo4';
+import { Teams } from './components/Teams';
+import { TeamDetails } from './components/TeamDetails';
 
 function App() {
   
@@ -44,6 +45,8 @@ return (
           <Route path='/netflixmovies' element={<NetflixMovies />}></Route>
           <Route path='/netflixshows' element={<NetflixShows />}></Route>
           <Route path='/watch/:name' element={<Watch />}></Route>
+          <Route path="/team" element={<Teams />}></Route>
+          <Route path="/teamdetails/:team" element={<TeamDetails />}></Route>
           <Route path='/usestatedemo1' element={<UseStateDemo1/>}></Route>
           <Route path='/employees' element={<Empoloyees />}></Route>
           <Route path='/tablecomponent' element={<TableComponent />}></Route>
@@ -54,6 +57,7 @@ return (
           <Route path='/formdemo1' element={<FormDemo1 />}></Route>
           <Route path='/formdemo2' element={<FormDemo2 />}></Route>
           <Route path='/formdemo3' element={<FormDemo3 />}></Route>
+          <Route path='/formdemo4' element={<FormDemo4 />}></Route>
           <Route path='/*' element={<ErrorNotFound />}></Route>
           <Route path='/' element={<Homecomponent />}></Route>
         </Routes>
