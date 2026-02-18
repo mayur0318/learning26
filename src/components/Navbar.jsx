@@ -106,6 +106,12 @@ export const Navbar = () => {
                   Form Validation
               </Link>
             </li>
+
+            <li className="nav-item">
+              <Link className="nav-link" to="/formdemo5">
+                  Form
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
