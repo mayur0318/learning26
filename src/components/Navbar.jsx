@@ -112,6 +112,18 @@ export const Navbar = () => {
                   Form
               </Link>
             </li>
+
+            <li className="nav-item">
+              <Link className="nav-link" to="/apidemo1">
+                  APIDemo1
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link className="nav-link" to="/ombdsearch">
+                  OMBd 
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>

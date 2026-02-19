@@ -33,6 +33,8 @@ import { FormDemo4 } from './components/form/FormDemo4';
 import { Teams } from './components/Teams';
 import { TeamDetails } from './components/TeamDetails';
 import { FormDemo5 } from './components/form/FormDemo5';
+import { ApiDemo1 } from './components/API/ApiDemo1';
+import { OMBdSearch } from './components/API/OMBdSearch';
 
 function App() {
   
@@ -60,6 +62,8 @@ return (
           <Route path='/formdemo3' element={<FormDemo3 />}></Route>
           <Route path='/formdemo4' element={<FormDemo4 />}></Route>
           <Route path='/formdemo5' element={<FormDemo5 />}></Route>
+          <Route path='/apidemo1' element={<ApiDemo1 />}></Route>
+          <Route path='/ombdsearch' element={<OMBdSearch />}></Route>
           <Route path='/*' element={<ErrorNotFound />}></Route>
           <Route path='/' element={<Homecomponent />}></Route>
         </Routes>
