@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React, { useState } from 'react'
 import './OMBdSearch.css'
+import { Link } from 'react-router-dom'
 
 export const OMBdSearch = () => {
   const [movies, setmovies] = useState([])
@@ -39,7 +40,8 @@ export const OMBdSearch = () => {
       <div className="container">
         {movies &&
           movies.map((movie) => (
-            <div className="card" key={movie.imdbID}>
+            <Link to={`/moviedetail/${movie.imdbID}`} key={movie.imdbID} style={{textDecoration:"none", color:"inherit"}}>
+              <div className="card">
               <img
                 src={
                   movie.Poster !== "N/A"
@@ -47,12 +49,14 @@ export const OMBdSearch = () => {
                     : "https://via.placeholder.com/300x450"
                 }
                 alt={movie.Title}
+                onClick={()=> <Link to={`/moviedetail/${movie.imdbID}`}></Link>}
               />
               <div className="card-content">
                 Download <h3>{movie.Title}</h3>
                           <p>{movie.Year}</p>
               </div>
             </div>
+            </Link>
           ))}
       </div>
     </div>

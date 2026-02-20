@@ -35,6 +35,7 @@ import { TeamDetails } from './components/TeamDetails';
 import { FormDemo5 } from './components/form/FormDemo5';
 import { ApiDemo1 } from './components/API/ApiDemo1';
 import { OMBdSearch } from './components/API/OMBdSearch';
+import { MovieDetail } from './components/API/MovieDetail';
 
 function App() {
   
@@ -64,6 +65,7 @@ return (
           <Route path='/formdemo5' element={<FormDemo5 />}></Route>
           <Route path='/apidemo1' element={<ApiDemo1 />}></Route>
           <Route path='/ombdsearch' element={<OMBdSearch />}></Route>
+          <Route path='/moviedetail/:imdbID' element={<MovieDetail />}></Route>
           <Route path='/*' element={<ErrorNotFound />}></Route>
           <Route path='/' element={<Homecomponent />}></Route>
         </Routes>
