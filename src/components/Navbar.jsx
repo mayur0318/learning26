@@ -124,6 +124,12 @@ export const Navbar = () => {
                   OMBd 
               </Link>
             </li>
+
+            <li className="nav-item">
+              <Link className="nav-link" to="/postapidemo">
+                  PostAPIDemo
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>

@@ -36,6 +36,7 @@ import { FormDemo5 } from './components/form/FormDemo5';
 import { ApiDemo1 } from './components/API/ApiDemo1';
 import { OMBdSearch } from './components/API/OMBdSearch';
 import { MovieDetail } from './components/API/MovieDetail';
+import { PostApiDemo } from './components/API/PostApiDemo';
 
 function App() {
   
@@ -45,29 +46,30 @@ return (
         <Navbar />
 
         <Routes>
-          <Route path='/netflixhome' element={<NetflixHome />}></Route>
-          <Route path='/netflixmovies' element={<NetflixMovies />}></Route>
-          <Route path='/netflixshows' element={<NetflixShows />}></Route>
-          <Route path='/watch/:name' element={<Watch />}></Route>
-          <Route path="/team" element={<Teams />}></Route>
-          <Route path="/teamdetails/:team" element={<TeamDetails />}></Route>
-          <Route path='/usestatedemo1' element={<UseStateDemo1/>}></Route>
-          <Route path='/employees' element={<Empoloyees />}></Route>
-          <Route path='/tablecomponent' element={<TableComponent />}></Route>
-          <Route path='/studenttable' element={<StudentReusableTable />}></Route>
-          <Route path='/inputdemo1' element={<InputDemo1 />}></Route>
-          <Route path='/inputdemo2' element={<InputDemo2 />}></Route>
-          <Route path='/inputdemo3' element={<InputDemo3 />}></Route>
-          <Route path='/formdemo1' element={<FormDemo1 />}></Route>
-          <Route path='/formdemo2' element={<FormDemo2 />}></Route>
-          <Route path='/formdemo3' element={<FormDemo3 />}></Route>
-          <Route path='/formdemo4' element={<FormDemo4 />}></Route>
-          <Route path='/formdemo5' element={<FormDemo5 />}></Route>
-          <Route path='/apidemo1' element={<ApiDemo1 />}></Route>
-          <Route path='/ombdsearch' element={<OMBdSearch />}></Route>
-          <Route path='/moviedetail/:imdbID' element={<MovieDetail />}></Route>
-          <Route path='/*' element={<ErrorNotFound />}></Route>
-          <Route path='/' element={<Homecomponent />}></Route>
+          <Route path='/netflixhome' element={<NetflixHome />} />
+          <Route path='/netflixmovies' element={<NetflixMovies />} />
+          <Route path='/netflixshows' element={<NetflixShows />} />
+          <Route path='/watch/:name' element={<Watch />} />
+          <Route path="/team" element={<Teams />} />
+          <Route path="/teamdetails/:team" element={<TeamDetails />} />
+          <Route path='/usestatedemo1' element={<UseStateDemo1/>} />
+          <Route path='/employees' element={<Empoloyees />} />
+          <Route path='/tablecomponent' element={<TableComponent />} />
+          <Route path='/studenttable' element={<StudentReusableTable />} />
+          <Route path='/inputdemo1' element={<InputDemo1 />} />
+          <Route path='/inputdemo2' element={<InputDemo2 />} />
+          <Route path='/inputdemo3' element={<InputDemo3 />} />
+          <Route path='/formdemo1' element={<FormDemo1 />} />
+          <Route path='/formdemo2' element={<FormDemo2 />} />
+          <Route path='/formdemo3' element={<FormDemo3 />} />
+          <Route path='/formdemo4' element={<FormDemo4 />} />
+          <Route path='/formdemo5' element={<FormDemo5 />} />
+          <Route path='/apidemo1' element={<ApiDemo1 />} />
+          <Route path='/ombdsearch' element={<OMBdSearch />} />
+          <Route path='/postapidemo' element={<PostApiDemo />}/>
+          <Route path='/moviedetail/:imdbID' element={<MovieDetail />} />
+          <Route path='/*' element={<ErrorNotFound />} />
+          <Route path='/' element={<Homecomponent />} />
         </Routes>
       </div> 
     
